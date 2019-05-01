@@ -1126,4 +1126,21 @@ button:active,a:active,button:focus, a:focus {
   }
   /* Thank media Ends */
 }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+  .page-caption{
+    transform: translate(0,50%);
+  }
+  .navbar-nav{
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .navbar-collapse {
+    overflow: auto;
+    height: 100vh;
+  }
+}
 /* Media screen ends */
